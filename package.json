@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/johnlonganecker/simple-node-server/issues"
   },
-  "homepage": "https://github.com/johnlonganecker/simple-node-server#readme"
+  "homepage": "https://github.com/johnlonganecker/simple-node-server#readme",
+  "dependencies": {
+    "mysql": "github:mysqljs/mysql"
+  }
 }
