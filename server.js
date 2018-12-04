@@ -1,9 +1,10 @@
 const http = require('http');
+const moment = require('moment');
 const port = process.env.PORT
 
 const requestHandler = (request, response) => {
   console.log(request.url)
-  response.end('Hello Node.js Server!')
+  response.end('Hello Node.js Server! - ' + moment().format('LLLL'))
 }
 
 const server = http.createServer(requestHandler)
