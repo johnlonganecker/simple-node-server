@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/johnlonganecker/simple-node-server#readme",
   "dependencies": {
-    "mysql": "github:mysqljs/mysql"
+    "moment": "^2.22.2"
   }
 }
